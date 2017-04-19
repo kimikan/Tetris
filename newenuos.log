@@ -1,0 +1,35 @@
+
+Microsoft (R) Program Maintenance Utility   Version 6.00.8168.0
+Copyright (C) Microsoft Corp 1988-1998. All rights reserved.
+
+---------------------------------------------------------------
+OBJECT canvas.o
+	C:\apps\bin\armcpp -c -DDYNAMIC_APP -cpu ARM7TDMI -apcs /ropi/interwork/norwpi -littleend -zo -fa -g -Ospace -O2 -I. -IC:\PROGRA~1\BREW31~1.5\sdk\inc -I "C:\PROGRA~1\BREW31~1.5\sdk\inc" -o canvas.o canvas.cpp
+"canvas.cpp", line 62: Warning: C2205W: Functionality of C++ keyword is not fully implemented: 'static_cast'
+canvas.cpp: 1 warning, 0 errors, 0 serious errors
+---------------------------------------------------------------
+---------------------------------------------------------------
+OBJECT shape.o
+	C:\apps\bin\armcpp -c -DDYNAMIC_APP -cpu ARM7TDMI -apcs /ropi/interwork/norwpi -littleend -zo -fa -g -Ospace -O2 -I. -IC:\PROGRA~1\BREW31~1.5\sdk\inc -I "C:\PROGRA~1\BREW31~1.5\sdk\inc" -o shape.o shape.cpp
+"shape.cpp", line 32: Warning: C2870W: variable 'pMe' declared but not used
+"shape.cpp", line 32: Warning: C2870W: variable 'len' declared but not used
+shape.cpp: 2 warnings, 0 errors, 0 serious errors
+---------------------------------------------------------------
+---------------------------------------------------------------
+OBJECT color.o
+	C:\apps\bin\armcpp -c -DDYNAMIC_APP -cpu ARM7TDMI -apcs /ropi/interwork/norwpi -littleend -zo -fa -g -Ospace -O2 -I. -IC:\PROGRA~1\BREW31~1.5\sdk\inc -I "C:\PROGRA~1\BREW31~1.5\sdk\inc" -o color.o color.cpp
+"color.cpp", line 21: Warning: C2205W: Functionality of C++ keyword is not fully implemented: 'static_cast'
+color.cpp: 1 warning, 0 errors, 0 serious errors
+---------------------------------------------------------------
+---------------------------------------------------------------
+OBJECT newenuos.o
+	C:\apps\bin\armcpp -c -DDYNAMIC_APP -cpu ARM7TDMI -apcs /ropi/interwork/norwpi -littleend -zo -fa -g -Ospace -O2 -I. -IC:\PROGRA~1\BREW31~1.5\sdk\inc -I "C:\PROGRA~1\BREW31~1.5\sdk\inc" -o newenuos.o newenuos.cpp
+---------------------------------------------------------------
+---------------------------------------------------------------
+TARGET NewEnuos.elf
+	C:\apps\bin\armlink -o NewEnuos.elf -ropi -rwpi -entry 0x8000 AEEAppGen.o AEEModGen.o Box.o Canvas.o Shape.o Color.o NewEnuos.o -first AEEMod_Load
+---------------------------------------------------------------
+TARGET NewEnuos.mod
+	C:\apps\bin\fromelf  NewEnuos.elf -bin NewEnuos.mod
+Warning: Q0115W: Deprecated command syntax will not be supported in future versions. Use -output to specify the output file.
+Finished: 0 information, 1 warning and 0 error messages.

@@ -1,0 +1,6 @@
+#ifndef NEWENUOS_BID
+#define NEWENUOS_BID
+
+#define AEECLSID_NEWENUOS        0x43678645
+
+#endif //NEWENUOS_BID
