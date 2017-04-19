@@ -1,15 +1,39 @@
-AVK_UP : 变换形状
-AVK_DOWN: 加速
-AVK_LEFT: left
-AVK_RIGHT:right.
 
-AVK_SOFT2: 退出
-AVK_CLR: 开始/停止
-AVK_ENTER:暂停/开始
+Description:
+   This program was written in 2007 fresh grad,   due to no network connection.
+ So I wrote this game to kill the time.
+ 
+   It based on Qualconn brew platform,  c++ Language
 
 
-本程序采用c++ 在brew平台上开发, arm编译通过 , 有部分warning. 因为c++语法关系,
+Usage:
+AVK_UP : Change Shape
+AVK_DOWN: Speed Down
+AVK_LEFT: Left
+AVK_RIGHT: Right.
 
-不影响运行.
+AVK_SOFT2: Quit
+AVK_CLR: Start/Stop
+AVK_ENTER: Pause/Start
 
-可配置. 如有问题, 可联系
+
+*********************************************
+                   _ooOoo_
+                  o8888888o
+                  88" . "88
+                  (| -_- |)
+                  O\  =  /O
+               ____/`---'\____
+             .'  \\|     |//  `.
+            /  \\|||  :  |||//  \
+           /  _||||| -:- |||||-  \
+           |   | \\\  -  /// |   |
+           | \_|  ''\---/''  |   |
+           \  .-\__  `-`  ___/-. /
+         ___`. .'  /--.--\  `. . __
+      ."" '<  `.___\_<|>_/___.'  >'"".
+     | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+     \  \ `-.   \_ __\ /__ _/   .-` /  /
+======`-.____`-.___\_____/___.-`____.-'======
+                   `=---='
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
