@@ -5,8 +5,7 @@
 /*    The main shape definition                                            */
 /*    It was designed as a Canvas object .                                 */
 /*                                                                         */
-/*  Copyright 2007 by                                                      */
-/*                  Kan(EMail: k32459871@126.com.)                         */
+/*  Copyright 2007                       */
 /*  Data: 2007-5-1                                                         */
 /*                                                                         */
 /***************************************************************************/
